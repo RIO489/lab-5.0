@@ -11,7 +11,8 @@ int main()
 	cout << "s = "; cin >> s;
 	cout << "t = "; cin >> t;
 
-	double c = (pow(h(s,t),4) - h(1, s*s + t*t))/(1+ pow(h(s*t,1),2));
+	double c = ((pow(h(s,t),4) - h(1, s*s + t*t)))/(1+ pow(h(s*t,1),2));
+	
 	
 	cout << "c = " << c << endl;
 	return 0;
